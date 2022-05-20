@@ -4,21 +4,21 @@ const menu = document.querySelector('#desktop-nav');
 const navLinks = document.querySelectorAll('.nav_link');
 
 // Function helper (hide and show mobile menu)
-function hide_show(paramOne, paramTwo) {
+function hideShow(paramOne, paramTwo) {
   menu.style.display = paramOne;
   ham.style.display = paramTwo;
 }
 
 ham.addEventListener('click', () => {
-  hide_show('block', 'none');
+  hideShow('block', 'none');
 });
 
 cancel.addEventListener('click', () => {
-  hide_show('none', 'block');
+  hideShow('none', 'block');
 });
 
 navLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    hide_show('none', 'block');
+    hideShow('none', 'block');
   });
 });
