@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Portfolio Website
 
 > This is a portfoli project to showcse my coding projects and contact information on the web.
 
@@ -14,7 +14,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ginohmk.github.io/Ham_menu_code_review-training/)
 
 ## Getting Started
 

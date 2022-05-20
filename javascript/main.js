@@ -19,7 +19,6 @@ cancel.addEventListener('click', () => {
 
 navLinks.forEach((link) => {
   link.addEventListener('click', () => {
-    console.log('hello');
     hide_show('none', 'block');
   });
 });
